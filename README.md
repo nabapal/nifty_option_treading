@@ -5,20 +5,6 @@ Connect to the Kite MCP server and automatically fetch all live market and optio
 Your task: 
 At current live time (Asia/Kolkata timezone), detect today's NIFTY index level, the nearest weekly expiry, and generate the most optimal intraday option strategy based on real-time data.
 
----
-
-# ✅ Data Source Configuration
-mcp_base: "https://<your-mcp-server>"
-kite_api_key: "<API_KEY>"
-kite_api_secret: "<API_SECRET>"
-symbol: "NIFTY"
-timeframe: "intraday"
-fetch_mode: "live"
-expiry: "nearest_weekly"
-trading_window: "09:30–15:00"
-risk_tolerance: "high"
-
----
 
 # 🎯 Objective
 
